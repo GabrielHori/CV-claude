@@ -1,0 +1,122 @@
+    /* STYLE GENERAUX */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #121212;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .cercle {
+        position: absolute;
+        display: flex;
+        left: -642px;
+        top: -178px;
+        height: 2030px;
+        width: 2030px;
+        background-color: #F04343;
+        border-radius: 50%;
+        z-index: -999999;
+    }
+    /* STYLE GENERAUX */
+    /*     HEAD      */
+    
+    .flex-center {
+        display: flex;
+        align-items: center;
+    }
+    
+    .head {
+        margin-left: 99px;
+        margin-top: 24px;
+    }
+    
+    .photo {
+        width: 169px;
+        height: 180px;
+    }
+    
+    .head h1 {
+        color: white;
+        margin-left: 40px;
+        margin-bottom: 95px;
+    }
+    
+    .head .text {
+        color: white;
+        margin-left: -132px;
+        margin-top: 49px;
+    }
+    
+    .head .text2 {
+        color: white;
+        position: relative;
+        right: 95px;
+    }
+    /*     HEAD      */
+    /*      CONTENT DATE      */
+    
+    .content_date {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -22%;
+        margin-right: 25%;
+        white-space: pre-wrap;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .text-head {
+        color: white;
+        font-size: 25px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        margin-left: 306px;
+        margin-top: 50px;
+    }
+    
+    .date {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .date2 {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    /*      CONTENT DATE      */
+    /*      CONTENT EXP      */
+    
+    .content_exp {
+        position: relative;
+        top: -914px;
+        left: 240px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -22%;
+        margin-right: 25%;
+        white-space: pre-wrap;
+    }
+    
+    .exp {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .exp2 {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    /*      CONTENT EXP      */
